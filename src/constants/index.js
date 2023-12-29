@@ -1,0 +1,151 @@
+import { facebook, instagram, twitter } from "../assets/icons";
+import {
+  bigShoe1,
+  bigShoe2,
+  bigShoe3,
+  customer1,
+  customer2,
+  shoe4,
+  shoe5,
+  shoe6,
+  shoe7,
+  thumbnailShoe1,
+  thumbnailShoe2,
+  thumbnailShoe3,
+  deliveryMan,
+  deliveryTruck,
+  stopwatch,
+} from "../assets/images";
+
+export const navLinks = [
+  { href: "#home", label: "Home" },
+  { href: "#about-us", label: "About Us" },
+  { href: "#services", label: "Services" },
+  { href: "#contact-us", label: "Contact Us" },
+];
+
+export const shoes = [
+  {
+    thumbnail: thumbnailShoe1,
+    bigShoe: bigShoe1,
+  },
+  {
+    thumbnail: thumbnailShoe2,
+    bigShoe: bigShoe2,
+  },
+  {
+    thumbnail: thumbnailShoe3,
+    bigShoe: bigShoe3,
+  },
+];
+
+export const statistics = [
+  { value: "1k+", label: "Brands" },
+  { value: "500+", label: "Shops" },
+  { value: "250k+", label: "Customers" },
+];
+
+export const products = [
+  {
+    imgURL: shoe4,
+    name: "Nike Air Jordan-01",
+    price: "$200.20",
+  },
+  {
+    imgURL: shoe5,
+    name: "Nike Air Jordan-10",
+    price: "$210.20",
+  },
+  {
+    imgURL: shoe6,
+    name: "Nike Air Jordan-100",
+    price: "$220.20",
+  },
+  {
+    imgURL: shoe7,
+    name: "Nike Air Jordan-001",
+    price: "$230.20",
+  },
+];
+
+export const services = [
+  {
+    imgURL: deliveryTruck,
+    label: "Freight Transportation",
+    subtext:
+      "Efficient and secure delivery of goods. Timely and reliable service for various cargo sizes.",
+  },
+  {
+    imgURL: deliveryMan,
+    label: "Last-Mile Delivery Solutions",
+    subtext: `Tailored last-mile logistics. Prompt and hassle-free deliveries to customers' doorsteps.
+      `,
+  },
+  {
+    imgURL: stopwatch,
+    label: "Expedited Delivery",
+    subtext:
+      "Swift and time-sensitive transportation solutions. Rapid and efficient delivery for urgent shipments and time-critical goods.",
+  },
+];
+
+export const reviews = [
+  {
+    imgURL: customer1,
+    customerName: "Morich Brown",
+    rating: 4.8,
+    feedback:
+      "Professional, reliable, and exceeded expectations. [Your Uncle's Business Name] consistently delivers our goods safely and on time. Highly recommended!",
+  },
+  {
+    imgURL: customer2,
+    customerName: "Lota Mongeskar",
+    rating: 4.9,
+    feedback:
+      "Exceptional last-mile delivery services. [Your Uncle's Business Name] is our trusted logistics partner, praised by our customers for their speed and professionalism.",
+  },
+];
+
+export const footerLinks = [
+  //   {
+  //     title: "Products",
+  //     links: [
+  //       { name: "Air Force 1", link: "/" },
+  //       { name: "Air Max 1", link: "/" },
+  //       { name: "Air Jordan 1", link: "/" },
+  //       { name: "Air Force 2", link: "/" },
+  //       { name: "Nike Waffle Racer", link: "/" },
+  //       { name: "Nike Cortez", link: "/" },
+  //     ],
+  //   },
+  {
+    title: "Address",
+    links: [
+      {
+        name: "2504 Queen City ave, Cincinnati OH 45238",
+        link: "https://maps.app.goo.gl/jfGJ96pppnmHWG8o9",
+      },
+    ],
+  },
+  {
+    title: "Contact us",
+    links: [
+      {
+        name: "Email :- customer@atown.com",
+        link: "mailto:customer@atown.com",
+      },
+      { name: "Phone 1:- +16196778217", link: "tel:+16196778217" },
+      { name: "Phone 2:- +16144004616", link: "tel:+16144004616" },
+    ],
+  },
+  {
+    title: "Fax",
+    links: [{ name: "+16143880405" }],
+  },
+];
+
+export const socialMedia = [
+  { src: facebook, alt: "facebook logo" },
+  { src: twitter, alt: "twitter logo" },
+  { src: instagram, alt: "instagram logo" },
+];
